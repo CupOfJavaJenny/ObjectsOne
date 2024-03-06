@@ -3,7 +3,7 @@ package object1;
 public class Car {
    //Defined class car
 
-   //instance variables make, mode, year, and mileage( include data types)
+   //instance variables make, doors, wheels, engine( include data types)
    private String make;
    private int  doors;
    private int wheels;
@@ -14,30 +14,39 @@ public class Car {
    // Includes parameters with data types & properties
    public Car(String make, int wheels, String engine, int doors) {
       this.make = make;
-      this.doors;
-      this.wheels;
-      this.engine;
+      this.doors = doors;
+      this.wheels = wheels;
+      this.engine = engine;
    }
    //set getters and setters because private class
    //setters requires parameters with data type, not getters. Initialize using 'this'
    public String getMake() {
+
       return make;
    }
 
    public void setMake(String make) {
       this.make = make;
    }
+public int getDoors() {
+      return doors;
+}
+   public void setDoors(int doors) {
 
-   public String getModel() {
-      return model;
+      this.doors;
    }
 
-   public void setModel(String model) {
-      this.model = model;
+   public int getEngine() {
+      return engine;
+   }
+   public void set(String engine) {
+      this.engine;
    }
 
-   public int getYear() {
-      return year;
+
+   public int getWheels() {
+
+      return wheels;
    }
 
    public void setYear(int year) {
