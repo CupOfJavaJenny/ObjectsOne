@@ -5,7 +5,7 @@ public class Car {
 
    //instance variables make, doors, wheels, engine( include data types)
    private String make;
-   private int  doors;
+   private int doors;
    private int wheels;
    private String engine;
 
@@ -26,6 +26,7 @@ public class Car {
    }
 
    public void setMake(String make) {
+
       this.make = make;
    }
 public int getDoors() {
@@ -33,13 +34,15 @@ public int getDoors() {
 }
    public void setDoors(int doors) {
 
-      this.doors;
+      this.doors=doors;
    }
 
    public int getEngine() {
+
       return engine;
    }
    public void set(String engine) {
+
       this.engine;
    }
 
@@ -48,30 +51,11 @@ public int getDoors() {
 
       return wheels;
    }
+   public void set(int wheels) {
 
-   public void setYear(int year) {
-      this.year = year;
+      this.wheels;
+
    }
 
-   public int getMileage() {
-      return mileage;
-   }
-
-   public void setMileage(int mileage) {
-      this.mileage = mileage;
-   }
-
-
-
-public void setColor( String color){
-   this.color = color;
-}
-
-public String getColor(){
-      return this.color;
-
-
-
-}
 
 }
