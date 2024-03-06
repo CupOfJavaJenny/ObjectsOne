@@ -15,6 +15,10 @@ public class Main {
 //
 //    }
 
+//means that the method is accessible anywhere, including from outside the class it's declared in.
+// static: By using 'static', we're saying that the main method can be run without needing an instance of the class.
+// void: This keyword indicates that the main method doesn't return any value.
+
 
     public static void main(String... args) {
 //        Logger logger=Logger.getLogger(Main.class.getName());
@@ -24,11 +28,14 @@ public class Main {
         Person john = new Person();
         System.out.println(john.getName());
 
-        Person jenn = new Person(100+55, "smith");
-        System.out.println(jenn.getName());
-        System.out.println(jenn.getHeight());
+        Person john1 = new Person(100+55, "smith");
+        System.out.println(john1.getName());
+        System.out.println(john1.getHeight());
 
-        Car honda = new Car();
+    Car honda = new Car();
+    honda.
+
+
 
         
 

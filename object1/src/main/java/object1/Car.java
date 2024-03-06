@@ -1,18 +1,25 @@
 package object1;
 
 public class Car {
+   //Defined class car
+
+   //instance variables make, mode, year, and mileage( include data types)
    private String make;
-   private String model;
-   private int year;
-   private int mileage;
+   private int  doors;
+   private int wheels;
+   private String engine;
 
-   public Car(String make, String model, int year, int mileage) {
+
+   //constructor: "blueprint",meant to declare/ initialize Object Car properties.
+   // Includes parameters with data types & properties
+   public Car(String make, int wheels, String engine, int doors) {
       this.make = make;
-      this.model = model;
-      this.year = year;
-      this.mileage = mileage;
+      this.doors;
+      this.wheels;
+      this.engine;
    }
-
+   //set getters and setters because private class
+   //setters requires parameters with data type, not getters. Initialize using 'this'
    public String getMake() {
       return make;
    }
@@ -44,10 +51,18 @@ public class Car {
    public void setMileage(int mileage) {
       this.mileage = mileage;
    }
+
+
+
+public void setColor( String color){
+   this.color = color;
 }
 
+public String getColor(){
+      return this.color;
 
 
 
+}
 
-
+}
