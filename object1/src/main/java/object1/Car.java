@@ -26,34 +26,28 @@ public class Car {
    }
 
    public void setMake(String make) {
-
       this.make = make;
    }
 public int getDoors() {
       return doors;
 }
    public void setDoors(int doors) {
-
       this.doors=doors;
    }
 
-   public int getEngine() {
-
+   public String getEngine() {
       return engine;
    }
    public void set(String engine) {
-
-      this.engine;
+      this.engine=engine;
    }
 
 
    public int getWheels() {
-
       return wheels;
    }
    public void set(int wheels) {
-
-      this.wheels;
+      this.wheels = wheels;
 
    }
 

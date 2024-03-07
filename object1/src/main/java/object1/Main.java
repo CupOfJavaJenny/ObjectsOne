@@ -32,8 +32,8 @@ public class Main {
         System.out.println(john1.getName());
         System.out.println(john1.getHeight());
 
-    Car honda = new Car();
-    honda.
+    Car honda = new Car("honda",4, "four cylinder",4);
+    Dog mugen = new Dog( "medium", "black", 60);
 
 
 
