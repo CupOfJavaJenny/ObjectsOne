@@ -196,17 +196,17 @@ In this example, the Chair class has three instance variables: "material", "colo
 
 How would you create a `new` Chair object? (hint: look above...)
 
-## A Class for a Dog
+## A Class for a object1.Dog
 
-Here's an example class for a Dog in Java:
+Here's an example class for a object1.Dog in Java:
 
 ```java
-public class Dog {
+public class object1.Dog {
     private String name;
     private int age;
     private String breed;
 
-    public Dog(String name, int age, String breed) {
+    public object1.Dog(String name, int age, String breed) {
         this.name = name;
         this.age = age;
         this.breed = breed;
@@ -242,7 +242,7 @@ See those pesky `getters` and `setters` again? They are used to access the priva
 
 ### Make some classes.
 
-You made the `Person` class, now do the Chair, Dog and Car classes. (You can copy and paste the code above, and then change the names and attributes.)(or do you?)
+You made the `Person` class, now do the Chair, object1.Dog and Car classes. (You can copy and paste the code above, and then change the names and attributes.)(or do you?)
 
 # WAIT! WHAT? an Array??
 
@@ -296,7 +296,7 @@ This retrieves the Person object at index 0 of the people array and stores it in
 
 An array of objects in Java allows you to store multiple objects of the same class in a single array, making it a powerful tool for managing collections of objects.
 
-How would you make an array of Chair? Or Dog? Or Car? You should _experiment_, because you can learn coding much faster if you experiment. (And you can't break anything, so don't worry about that.)
+How would you make an array of Chair? Or object1.Dog? Or Car? You should _experiment_, because you can learn coding much faster if you experiment. (And you can't break anything, so don't worry about that.)
 
 ### because you know...
 

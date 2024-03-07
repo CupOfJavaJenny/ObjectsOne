@@ -36,7 +36,8 @@ public class Main {
     Dog mugen = new Dog( "medium", "black", 60);
 
 
-
+mugen.Smile();
+mugen.heavyDog(11);
         
 
 
