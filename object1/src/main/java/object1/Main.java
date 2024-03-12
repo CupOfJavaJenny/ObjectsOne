@@ -11,8 +11,6 @@ public class Main {
 //        //Declare and initialize an object
 //        Person person1 = new Person(0);
 //        //Now you can use Object 'person1' //
-//
-//
 //    }
 
 //means that the method is accessible anywhere, including from outside the class it's declared in.
@@ -28,24 +26,26 @@ public class Main {
         Person john = new Person();
         System.out.println(john.getName());
 
-        Person john1 = new Person(100+55, "smith");
+        Person john1 = new Person(97, "raz");
         System.out.println(john1.getName());
         System.out.println(john1.getHeight());
+
 
     Car honda = new Car("honda",4, "four cylinder",4);
     Dog mugen = new Dog( "medium", "black", 60);
 
 
-mugen.Smile();
-mugen.heavyDog(11);
-        
+    mugen.smile();
+    mugen.heavyDog(50);
+    mugen.bark();
+    mugen.walk();
+    Dog balto = new Dog("purple");
+    System.out.println(balto.getColor());
 
-
+    Chair rocking = new Chair( "brown", "big", 2);
+    Chair inflatable = new Chair("gray", "small", 1);
 
 
     }
 
-//    private boolean getName() {
-//    }
-//}
 }
