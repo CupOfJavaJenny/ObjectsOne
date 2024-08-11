@@ -12,7 +12,7 @@ public class Car {
 
    //constructor: "blueprint",meant to declare/ initialize Object Car properties.
    // Includes parameters with data types & properties
-   public Car(String make, int doors, int wheels, String engine) {
+   public Car(String make, int doors, String engine, int wheels) {
       this.make = make;
       this.doors = doors;
       this.wheels = wheels;

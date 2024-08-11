@@ -1,7 +1,9 @@
+package object1;
+
 class Person{
     String name;
     int age = 0;
-    int height = 0;
+    int height = 0;//inches
 
 
 
