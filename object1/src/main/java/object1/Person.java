@@ -1,45 +1,53 @@
-package object1;
+class Person{
+    String name;
+    int age = 0;
+    int height = 0;
 
-public class Person {
-// I defined a class
 
-    //Start instance variables
-    private int height;
-    String name = "John";
-//defining instance variable in centimeters
 
-    //start constructor/ initialize object Person   using 'this'
-    public Person() {
+    public Person(){}
 
-        this.height = 0;
-    }
 
-    public Person(int height, String name) {
-        this.height = height;
+    //Constructor
+    public Person(String name, int age, int height){
         this.name = name;
+        this.age = age;
+        this.height = 0;//centimeters
+    }
+    //Getter
+    public String getName(){
+        return this.name;
+    
     }
 
-    //getters tell what the program to do
-    public String getName() {
-
-        return name;
+    //Setter
+    public void setName(String name){
+        this.name= name;
 
     }
 
-    public void setName(String name) {
+    //Getter
+    public int getAge(){
+        return this.age;
+    }
+    //Setter
+    public void setAge(int age){
+        this.age = age;
 
-        this.name = name;
     }
 
-    public int getHeight() {
-
-        return height;
+    //Getter
+    public int getHeight(){
+        return this.height;
     }
-
-    public void setHeight(int height) {
-
+    //Setter
+    public void setHeight(int height){
         this.height = height;
     }
+
+
+
+   
 }
 
 
