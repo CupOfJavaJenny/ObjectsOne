@@ -34,7 +34,7 @@ public class Chair {
         return legs;
     }
 
-    public void setLegs(String size) {
+    public void setLegs(int legs) {
         this.legs = legs;
     }
 

@@ -15,6 +15,7 @@ public class Dog {
         this.color = color;
         this.weight = weight;
     }
+
     public Dog(){
         this.color = "brown";
 
@@ -50,10 +51,14 @@ public class Dog {
 
         return color;
     }
-    public void setColor(){
+
+    public void setColor(String color){
 
         this.color = color;
     }
+
+    /* The following are methods giving the object attributes that speak of it's weight,
+     speak, feelings, and walk*/
 
     public void heavyDog(int pounds){
         if(pounds > 10 ){
@@ -62,14 +67,18 @@ public class Dog {
             System.out.println("eat more!");
         }
     }
+
     public void bark(){
         System.out.println("Woof!");
+        
     }
     public void smile(){
         System.out.println("Wag that tail!");
     }
 
-    public void walk(){ System.out.println("leash!");
+    public void walk(){
+         System.out.println("leash!");
 
 }
+
 }

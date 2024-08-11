@@ -12,7 +12,7 @@ public class Car {
 
    //constructor: "blueprint",meant to declare/ initialize Object Car properties.
    // Includes parameters with data types & properties
-   public Car(String make, int wheels, String engine, int doors) {
+   public Car(String make, int doors, int wheels, String engine) {
       this.make = make;
       this.doors = doors;
       this.wheels = wheels;
@@ -28,25 +28,28 @@ public class Car {
    public void setMake(String make) {
       this.make = make;
    }
-public int getDoors() {
+
+   public int getDoors() {
       return doors;
-}
+   }
+
    public void setDoors(int doors) {
-      this.doors=doors;
+      this.doors = doors;
    }
 
    public String getEngine() {
       return engine;
    }
-   public void set(String engine) {
-      this.engine=engine;
-   }
 
+   public void setEngine(String engine) {
+      this.engine = engine;
+   }
 
    public int getWheels() {
       return wheels;
    }
-   public void set(int wheels) {
+
+   public void setWheels(int wheels) {
       this.wheels = wheels;
 
    }
