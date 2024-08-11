@@ -16,15 +16,17 @@ public class Dog {
         this.weight = weight;
     }
 
-    public Dog(){
+    public Dog() {
         this.color = "brown";
 
     }
+
     //bottom constructor helps us give the user options to type in a preferred color
-    public Dog(String color){
+    public Dog(String color) {
 
         this.color = color;
     }
+
     //set getters and setters because private class
     //setters requires parameters with data type, not getters. Initialize using 'this'
     public String getSize() {
@@ -52,33 +54,34 @@ public class Dog {
         return color;
     }
 
-    public void setColor(String color){
+    public void setColor(String color) {
 
         this.color = color;
     }
 
     /* The following are methods giving the object attributes that speak of it's weight,
      speak, feelings, and walk*/
-
-    public void heavyDog(int pounds){
-        if(pounds > 10 ){
+    public void heavyDog(int pounds) {
+        if (pounds > 10) {
             System.out.println("getting big!");
-        }if(pounds <= 10){
+        }
+        if (pounds <= 10) {
             System.out.println("eat more!");
         }
     }
 
-    public void bark(){
+    public void bark() {
         System.out.println("Woof!");
-        
+
     }
-    public void smile(){
+
+    public void smile() {
         System.out.println("Wag that tail!");
     }
 
-    public void walk(){
-         System.out.println("leash!");
+    public void walk() {
+        System.out.println("leash!");
 
-}
+    }
 
 }

@@ -1,6 +1,7 @@
 package object1;
 
 public class Chair {
+
     // my instance variables:color, size & legs.
     private String color;
     private String size;
@@ -14,6 +15,7 @@ public class Chair {
 
     }
 //my getters& setters
+
     public String getColor() {
         return color;
     }
@@ -39,4 +41,3 @@ public class Chair {
     }
 
 }
-
